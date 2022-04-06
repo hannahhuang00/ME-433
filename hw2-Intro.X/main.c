@@ -68,10 +68,6 @@ int main() {
         }
 
         while (_CP0_GET_COUNT() <= 48000000) {
-//            if ((_CP0_GET_COUNT() % 12000000) == 0) {
-//                state = ~state;
-//                LATAbits.LATA4 = state;
-//            }  
             delay_start = _CP0_GET_COUNT();
             state = ~state;
             LATAbits.LATA4 = state;

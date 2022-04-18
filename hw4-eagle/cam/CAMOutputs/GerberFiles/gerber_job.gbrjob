@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2022-04-18T06:10:26Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.6.2"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "schematic"
+        },
+        "Owner": "Hannah Huang <hannahhuang2023@u.northwestern.edu>",
+        "Size": {
+            "X": 50,
+            "Y": 50
+        }
+    }
+}

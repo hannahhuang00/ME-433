@@ -106,7 +106,7 @@ int main() {
 //        blink();
         count = _CP0_GET_COUNT();
         _CP0_SET_COUNT(0);
-        rate = ((float) PIC32_SYS_FREQ)/((float) 4*count);
+        rate = ((float) PIC32_SYS_FREQ)/((float) 2*count);
         ssd1306_clear();
         sprintf(msg, "FPS (Frames Per Second):");
         ssd1306_drawString(5, 5, msg);

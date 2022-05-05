@@ -1,6 +1,6 @@
 #include "uart.h"
 
-void initUART1(void) {
+void UART1_Startup(void) {
     U1MODEbits.BRGH = 0; // set baud to NU32_DESIRED_BAUD
     U1BRG = ((NU32_SYS_FREQ / NU32_DESIRED_BAUD) / 16) - 1;
 
@@ -20,7 +20,7 @@ void initUART1(void) {
     RPB3Rbits.RPB3R = 0b0001; // Set B3 to U1TX
 }
 
-void readUART1(char * message, int maxLength) {
+void ReadUART1(char * message, int maxLength) {
   char data = 0;
   int complete = 0, num_bytes = 0;
   // loop until you get a '\r' or '\n'
@@ -44,7 +44,7 @@ void readUART1(char * message, int maxLength) {
 }
 
 // Write a character array using UART1
-void writeUART1(const char * string) {
+void WriteUART1(const char * string) {
   while (*string != '\0') {
     while (U1STAbits.UTXBF) {
       ; // wait until tx buffer isn't full

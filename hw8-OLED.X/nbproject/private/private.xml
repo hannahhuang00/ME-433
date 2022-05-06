@@ -2,13 +2,6 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group>
-            <file>file:/Users/Potato/MPLABXProjects/ME-433/hw8-OLED.X/font.h</file>
-            <file>file:/Users/Potato/MPLABXProjects/ME-433/hw8-OLED.X/mpu6050.c</file>
-            <file>file:/Users/Potato/MPLABXProjects/ME-433/hw8-OLED.X/ssd1306.c</file>
-            <file>file:/Users/Potato/MPLABXProjects/ME-433/hw8-OLED.X/i2c.c</file>
-            <file>file:/Users/Potato/MPLABXProjects/ME-433/hw8-OLED.X/main.c</file>
-            <file>file:/Users/Potato/MPLABXProjects/ME-433/hw8-OLED.X/ssd1306.h</file>
-        </group>
+        <group/>
     </open-files>
 </project-private>

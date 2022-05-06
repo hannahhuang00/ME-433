@@ -1,0 +1,1 @@
+ $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -O1 -fno-common   -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  /Users/Potato/MPLABXProjects/ME-433/hw9-Neopixel.X/ws2812b.c
